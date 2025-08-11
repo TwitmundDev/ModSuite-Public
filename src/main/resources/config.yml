@@ -1,0 +1,22 @@
+lang: "fr-FR"
+maintenance_status: false
+discord_webhook_url: "https://discord.com/api/webhooks/1330269564684210186/i8sEAt1FySu4on8D_hw23OYZx0iUS4wCb8K26VbALRCTkvbf5yKBGLqtNRhUM3XLyWsH"
+discord_webhook_enabled: true
+enable_freeze_sound: true
+
+# ------------------------------------- ALTS CONFIGURATION -------------------------------------
+# if one of those two options is malformed or not specified, the alts system will default to notifying
+# For this section you need to choose between
+# ban , banip,tempban, notify (notify will occur for all punishments put notify only if you want to get notified without any punishment)
+# if not specified will default to notify
+
+# - ban: will ban the alt account
+# - banip: will ban the alt account by IP
+# - tempban: will tempban the alt account
+# - kick: will kick the alt account
+# - notify: will notify the staff without punishing the alt account
+punishment_alts_type: "notify"
+
+# This is the time in seconds for the ban, tempban, banip, tempbanip
+# if not specified will default to 3600 seconds (1 hour)
+punishment_alts_time: 3600

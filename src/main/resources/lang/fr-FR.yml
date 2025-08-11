@@ -1,0 +1,160 @@
+# Le plugin peut gérer les codes de couleur hexadécimaux, vous pouvez donc les utiliser dans les messages.
+# Par exemple, "#0c64fa" est le code de couleur hexadécimal pour la couleur bleue.
+# %player% sera remplacé par le nom du joueur
+# %reason% sera remplacé par la raison
+# %ban_id% sera remplacé par l'identifiant du ban
+# %usage% sera remplacé par l'utilisation de la commande
+# %author% sera remplacé par l'auteur de la sanction
+# %duration% sera remplacé par la durée de la sanction
+# %date% sera remplacé par la date de la sanction
+# %alt_player% sera remplacé par le nom du joueur du ou des comptes alternatifs
+
+player_not_found: "Le joueur %player% n'a pas été trouvé"
+no_permission: "Vous n'avez pas la permission d'exécuter cette commande"
+usage: "Usage: %usage%"
+invaild_number: "Nombre invalide"
+invalid_duration: "Durée invalide"
+only_player_can_use: "Seul un joueur peut utiliser cette commande"
+reload_all: "Toutes les configurations ont été rechargées avec succès"
+reload_config: "Configuration rechargée avec succès"
+reload_lang: "Langue rechargée avec succès"
+reload_database: "Le fichier de configuration de la base de donnée rechargée avec succès"
+reload_permissions: "Permissions rechargées avec succès"
+
+
+warn_success: "#0c64fa Le joueur %player% a bien été averti pour %reason%"
+warn_error: "Erreur lors de l'avertissement du joueur %player%"
+warn_title_notify: "Vous avez été averti pour"
+warn_subtitle_notify: "%reason%"
+warn_message: "Vous avez été averti pour: %reason%"
+
+maintenance_on: "Le mode maintenance est maintenant ACTIVÉ."
+maintenance_off: "Le mode maintenance est maintenant DÉSACTIVÉ."
+maintenance_usage: "Usage: /maintenance <on/off>"
+maintenance_kick_message: "Vous avez été expulsé car le serveur est en maintenance"
+maintenance_already_on: "Le mode maintenance est déjà activé"
+maintenance_already_off: "Le mode maintenance est déjà désactivé"
+
+ban_success: "Le joueur %player% a bien été banni pour %reason%"
+ban_error: "Erreur lors du bannissement du joueur %player%"
+ban_player_already_banned: "Le joueur %player% est déjà banni"
+ban_message: |
+  #ff0000 Vous avez été banni pour %reason% par %author%.
+  Raison: %reason%
+  Id du ban: %ban_id%
+
+tempban_success: "Le joueur %player% a bien été banni pour %reason% pendant %duration%"
+tempban_message: |
+  #ff0000 Vous avez été banni pour %reason% par %author%.
+  Raison: %reason%
+  Id du ban: %ban_id%
+  Unban : %duration%
+
+
+mute_success: "Le joueur %player% a bien été mute pour %reason%"
+mute_player_already_muted: "Le joueur %player% est déjà mute"
+mute_message: "Vous avez été mute pour: %reason%"
+mute_player_try_to_chat: "Vous êtes mute, vous ne pouvez pas envoyer de messages"
+
+unban_success: "Le joueur %player% a bien été débanni"
+unban_player_not_banned: "Le joueur %player% n'est pas banni"
+
+notify_ban_try_to_connect: "Le joueur %player% a essayé de se connecter alors qu'il est banni"
+
+staff_mode_on: "Le mode staff est maintenant ACTIVÉ."
+staff_mode_off: "Le mode staff est maintenant DÉSACTIVÉ."
+
+no_other_player: "Il n'y a aucun autre joueur en ligne"
+teleported_to: "Vous avez été téléporté à %player%"
+
+freeze_title: "Freeze de %player%"
+freeze_message: "Le joueur %player% a été freeze par %author%"
+
+freeze_player_title: "Vous avez été freeze"
+freeze_player_subtitle: "Ne déconnectez pas !"
+freeze_player_message: "Vous avez été freeze"
+freeze_success: "Vous avez freeze %player% avec succès"
+
+unfreeze_success: "Le joueur %player% a bien été unfreezé"
+unfreeze_player_message: "Vous avez été unfreeze !"
+
+vanish_on: "Le mode vanish est maintenant ACTIVÉ."
+vanish_off: "Le mode vanish est maintenant DÉSACTIVÉ."
+
+blacklist_player_already_blacklisted: "Le joueur %player% est déjà blacklisté"
+blacklist_player_not_blacklisted: "Le joueur %player% n'est pas blacklisté"
+blacklist_success: "Le joueur %player% a bien été blacklisté"
+blacklist_remove_success: "Le joueur %player% a bien été retiré de la blacklist"
+blacklist_player_try_to_connect: "Le joueur %player% a essayé de se connecter alors qu'il est blacklisté"
+
+
+not_allowed_alts_message: "Ce serveur n'autorise pas les comptes alternatifs. Veuillez utiliser un seul compte."
+notify_alts: "Le joueur %player% c'est connecté avec un alt : %alt_player%"
+
+
+# ------------------------------------- DISCORD WEBHOOK -------------------------------------
+# Vous pouvez configurer un webhook Discord pour recevoir des notifications de sanctions.
+# Pour cela, vous devez configurer le webhook dans le fichier de configuration du plugin.
+# Vous pouvez également configurer les messages envoyés sur le webhook.
+# Les messages peuvent contenir des variables qui seront remplacées par les informations de la sanction.
+webhook_sanction_title: "Sanction"
+webhook_sanction_description: "Une sanction a été appliquée"
+
+
+webhook_warn_title: "Avertissement"
+webhook_warn_message: "Le joueur %player% a été averti pour %reason% par %author%"
+
+webhook_ban_title: "Ban"
+webhook_ban_message: "Le joueur %player% a été banni pour %reason% par %author%"
+
+webhook_tempban_title: "Ban temporaire"
+webhook_tempban_message: "Le joueur %player% a été banni pour %reason% par %author% pendant %duration%"
+
+webhook_unban_title: "Déban"
+webhook_unban_message: "Le joueur %player% a été débanni pour %reason% par %author%"
+
+webhook_mute_title: "Mute"
+webhook_mute_message: "Le joueur %player% a été mute pour %reason% par %author%"
+
+webhook_tempmute_title: "Mute temporaire"
+webhook_tempmute_message: "Le joueur %player% a été mute pour %reason% par %author% pendant %duration%"
+
+webhook_unmute_title: "Unmute"
+webhook_unmute_message: "Le joueur %player% a été unmute pour %reason% par %author%"
+
+webhook_maintenance_title: "Mode maintenance activé"
+webhook_maintenance_message: "Le mode maintenance a été activé par %author%"
+
+
+
+# ------------------------------------- GUI -------------------------------------
+gui_previous_page: "Page précédente"
+gui_next_page: "Page suivante"
+gui_date: "Date : %date%"
+gui_back: "Retour"
+
+gui_warn_title: "Avertissement de %player%"
+gui_warned_by: "Averti par %author%"
+gui_no_warn: "Aucun avertissement"
+
+gui_mute_title: "Mute de %player%"
+gui_muted_by: "Mute par %author%"
+gui_no_mutes: "Aucun mute"
+gui_unmute_date: "Date de démute : %date%"
+gui_is_muted: "Est mute : "
+
+gui_is_banned: "Est banni"
+gui_unban_date: "Date de déban: %date%"
+gui_ban_title: "Bannissement"
+
+gui_item_warn: "Avertissement"
+gui_item_mute: "Mute"
+gui_item_ban: "Bannissement"
+
+gui_item_alts: "Comptes alternatifs"
+gui_title_alts: "Comptes alternatifs de %player%"
+gui_no_alts: "Aucun compte alternatif"
+
+
+
+

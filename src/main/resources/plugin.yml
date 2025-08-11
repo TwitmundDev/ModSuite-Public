@@ -1,0 +1,33 @@
+name: ModSuite
+version: '1.0-SNAPSHOT'
+main: fr.twitmund.modSuite.Main
+api-version: '1.21.4'
+author: Twitmund
+description: >-
+  A plugin that adds a suite of moderation tools to your server.
+commands:
+  warn:
+    description: Warn a player.
+  ban:
+    description: Ban a player.
+  unban:
+    description: Unban a player.
+  tempban:
+    description: Temporarily ban a player.
+  maintenance:
+    description: Toggle maintenance mode.
+  mute:
+    description: Mute a player.
+  unmute:
+    description: Unmute a player.
+  lookup:
+    description: Look up a player's punishment history.
+  staff:
+    description: Enable or disable staff mode.
+  freeze:
+    description: Freeze a player.
+  vanish:
+    description: Toggle vanish mode.
+  mreload:
+    description: Reload the plugin configuration.
+    usage: /<command> reload

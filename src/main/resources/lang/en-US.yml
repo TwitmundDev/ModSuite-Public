@@ -1,0 +1,9 @@
+warn:
+  usage: "Usage: %s"
+  success: "The player %player% has been successfully warned"
+  error: "Error while warning the player %player%"
+
+ban:
+  usage: "Usage: %s"
+  success: "The player %player% has been successfully banned"
+  error: "Error while banning the player %player%"
