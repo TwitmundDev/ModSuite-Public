@@ -14,9 +14,8 @@ Il est conçu pour être **modulaire**, **multilingue**, avec un système de **p
 - 🎨 **Personnalisation des messages** avec codes couleurs **hexadécimaux** (`#RRGGBB`).
 - 📜 **Historique des sanctions** et commandes de lookup.
 - 🔐 **Permissions personnalisées** pour un contrôle granulaire.
-- 🔔 **Système d’alertes Discord** via Webhook.
-![alt text](https://github.com/TwitmundDev/ModSuite-Public/blob/master/ressources/Capture%20d'%C3%A9cran%202025-08-11%20171931.png "image exemple")
-  
+- 🔔 **Système d’alertes Discord** via Webhook
+- ![alt text](https://github.com/TwitmundDev/ModSuite-Public/blob/master/ressources/Capture%20d'%C3%A9cran%202025-08-11%20171931.png "image exemple")
 - 🧊 **Freeze avec son activable**.
 - 🧠 **Détection d’alts** avec actions configurables : notify, ban, banip, tempban, kick.
 
