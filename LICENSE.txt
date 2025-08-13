@@ -1,0 +1,45 @@
+© 2025 Twitmund – Tous droits réservés
+
+Licence d’utilisation de ModSuite
+
+1. Usage gratuit
+   Vous pouvez utiliser ModSuite gratuitement, pour un usage personnel ou sur votre serveur Minecraft.
+
+2. Modification
+   Vous êtes autorisé à modifier le code source de ModSuite.
+
+3. Attribution obligatoire
+   Toute copie ou version modifiée de ModSuite doit impérativement inclure le nom et les crédits de l’auteur original : Twitmund.
+
+4. Redistribution gratuite
+   Vous pouvez redistribuer ModSuite ou vos versions modifiées uniquement **gratuitement**. Aucune vente n’est autorisée.
+
+5. Interdiction commerciale
+   Vous n’êtes pas autorisé à vendre ModSuite ou toute version modifiée, directement ou indirectement.
+
+6. Aucune garantie
+   ModSuite est fourni "tel quel", sans aucune garantie, explicite ou implicite, y compris sans limitation la garantie de qualité marchande ou d’adéquation à un usage particulier.
+
+-----------------------------------
+
+© 2025 Twitmund – All rights reserved
+
+ModSuite License
+
+1. Free use
+   You may use ModSuite for free, for personal use or on your Minecraft server.
+
+2. Modification
+   You are allowed to modify the ModSuite source code.
+
+3. Mandatory attribution
+   Any copy or modified version of ModSuite must include the original author's name and credits: Twitmund.
+
+4. Free redistribution
+   You may redistribute ModSuite or your modified versions **only for free**. No selling is allowed.
+
+5. Commercial prohibition
+   You are not allowed to sell ModSuite or any modified version, directly or indirectly.
+
+6. No warranty
+   ModSuite is provided "as-is", without any warranty, express or implied, including, without limitation, any warranty of merchantability or fitness for a particular purpose.
